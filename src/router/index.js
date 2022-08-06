@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 // import ShowAndHidePassword from "../views/ShowAndHidePassword.vue";
 // import ConvertTitleToSlug from "../views/ConvertTitleToSlug.vue";
-import ChangColor from "../views/ChangColor.vue";
-// import ShowAndHidePassword from "../views/ShowAndHidePassword.vue";
+// import ChangColor from "../views/ChangColor.vue";
+import ProductPrice from "../views/ProductPrice.vue";
 // import ShowAndHidePassword from "../views/ShowAndHidePassword.vue";
 
 const routes = [
@@ -31,10 +31,15 @@ const routes = [
   //   name: "about",
   //   component: ConvertTitleToSlug,
   // },
+  // {
+  //   path: "/about",
+  //   name: "about",
+  //   component: ChangColor,
+  // },
   {
     path: "/about",
     name: "about",
-    component: ChangColor,
+    component: ProductPrice,
   },
 ];
 
